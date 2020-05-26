@@ -8,6 +8,6 @@ This project can provide restful interface, which also based on the spring-frame
 
 If you have any questions, please email me.
 
-Email Address： waitingfirefly@gmai.com
+Email Address： waitingfirefly@gmail.com
 
 Wechat Account: liuweitin001
