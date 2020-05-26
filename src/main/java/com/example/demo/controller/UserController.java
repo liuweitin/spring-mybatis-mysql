@@ -26,6 +26,13 @@ public class UserController {
 //        userMyBatisRepository.insert(new User(1, "Ramesh", "Fadatare", "ramesh@gmail.com"));
 //        userMyBatisRepository.insert(new User(2, "John", "Cena", "john@gmail.com"));
         List<User> users = userMyBatisRepository.findAll();
+        for (int i = 0; i < users.size(); i++) {
+            System.out.println("123");
+            System.out.println(users.get(i).getFirstName());
+            System.out.println(users.get(i).getLastName());
+            System.out.println(users.get(i).getEmailId());
+        }
+
         return users;
     }
 
